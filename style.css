@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    height: 200vh; /* Makes the container taller to enable scrolling */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .spacer {
+    height: 100vh; /* Spacer to create space for scrolling */
+    width: 100%;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  
